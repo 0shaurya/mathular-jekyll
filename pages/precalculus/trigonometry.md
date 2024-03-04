@@ -91,14 +91,6 @@ This is the graph of \\(\tan(x)\\) overlaid over the graphs of \\(\sin(x)\\) and
 
 <img src="../../visuals/sincostan.png" style="width:50%;height:auto;display:block;margin:auto;">
 
-  \begin{circuitikz} \draw
-(0,0) to[battery] (0,4)
-  to[ammeter] (4,4) -- (4,0)
-  to[lamp] (0,0)
-(0.5,0) -- (0.5,-2)
-  to[voltmeter] (3.5,-2) -- (3.5,0)
-;
-\end{circuitikz}
 
 There are three other functions to know: \\(\csc(x)\\), \\(\sec(x)\\), and \\(\cot(x)\\). They are fairly simple:
 
